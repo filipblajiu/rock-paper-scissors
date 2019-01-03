@@ -1,0 +1,34 @@
+.row{
+    margin-top: 50vh;
+    transform: translateY(-50%);
+}
+
+.score{
+    margin-bottom: 20px;
+    font-size: 100px;
+}
+
+.play{
+    margin-top: 50px;
+}
+
+i{
+    font-size: 150px;
+}
+
+.em{
+    font-size: 15px;
+
+}
+
+.maybe{
+    margin-top: 20px;
+}
+
+.maybe .em{
+    opacity: 0.1;
+}
+
+.played.em{
+    opacity: 1;
+}
