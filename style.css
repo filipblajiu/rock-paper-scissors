@@ -5,15 +5,15 @@
 
 .score{
     margin-bottom: 20px;
-    font-size: 100px;
+    font-size: 50px;
 }
 
 .play{
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 i{
-    font-size: 150px;
+    font-size: 70px;
 }
 
 .em{
@@ -21,14 +21,85 @@ i{
 
 }
 
-.maybe{
-    margin-top: 20px;
-}
-
 .maybe .em{
+    margin-top: 20px;
     opacity: 0.1;
 }
 
 .played.em{
     opacity: 1;
+}
+
+@media (min-width: 576px) {
+.score{
+    font-size: 60px;
+}
+
+i{
+    font-size: 90px;
+}
+    
+}
+
+@media (min-width: 768px) {
+    .score{
+        margin-bottom: 30px;
+        font-size: 70px;
+    }
+    
+    .play{
+        margin-top: 30px;
+    }
+    
+    i{
+        font-size: 100px;
+    }
+    
+    .em{
+        font-size: 20px;
+    
+    }
+    
+}
+
+@media (min-width: 992px) {
+    .score{
+        margin-bottom: 40px;
+        font-size: 90px;
+    }
+    
+    .play{
+        margin-top: 40px;
+    }
+    
+    i{
+        font-size: 150px;
+    }
+    
+    .em{
+        font-size: 25px;
+    
+    }
+    
+}
+
+@media (min-width: 1200px) {
+
+    .score{
+        margin-bottom: 45px;
+        font-size: 100px;
+    }
+    
+    .play{
+        margin-top: 45px;
+    }
+    
+    i{
+        font-size: 200px;
+    }
+    
+    .em{
+        font-size: 30px;
+    
+    }
 }
